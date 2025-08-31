@@ -52,7 +52,7 @@ Logs will be saved in:<br>
 ### ⏲ Automating with Cron
 
 To run the script daily at 9 AM:
-```crontab -e```
+```crontab -e```<br
 Add this line:<br>
 ```0 9 * * * /path/to/aws-resource-tracker/aws-resource-tracker.sh```
 
@@ -63,7 +63,7 @@ This ensures only the script and documentation are pushed to GitHub, while logs 
 
 ### 📌 Example Output (log file)
 
-![Results](https://github.com/Raafiya-Gouher/aws-resource-tracker/blob/main/Output-resource-tracker.png)
+![Results](https://github.com/Raafiya-Gouher/aws-resource-tracker/blob/main/images/Output-resource-tracker.png)
 
 Sample Log File
-![SampleLogfile](https://github.com/Raafiya-Gouher/aws-resource-tracker/blob/main/Sample-Logfile.png)
+![SampleLogfile](https://github.com/Raafiya-Gouher/aws-resource-tracker/blob/main/images/Sample-Logfile.png)
