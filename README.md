@@ -65,33 +65,4 @@ The ```logs/``` directory is ignored from version control using ```.gitignore```
 This ensures only the script and documentation are pushed to GitHub, while logs remain local.
 
 ### 📌 Example Output (log file)
-======================================<br>
- AWS Resource Tracker - Mon Aug 31 09:00:01 UTC 2025<br>
-======================================<br>
-
-EC2 Instances:<br>
--------------------------------------------------------------<br>
-|     ID       |   Type   |   State   |     AZ             |<br>
--------------------------------------------------------------<br>
-|  i-12345678  | t2.micro |  running  |  us-east-1a        |<br>
--------------------------------------------------------------<br>
-
-S3 Buckets:<br>
-2025-08-30 12:00:00 my-s3-bucket<br>
-2025-08-28 15:30:00 project-logs-bucket<br>
-
-IAM Users:<br>
----------------------------------------------------<br>
-|  UserName     |       CreateDate                |<br>
----------------------------------------------------<br>
-|  admin-user   | 2025-07-01T12:45:00Z            |<br>
-|  dev-user     | 2025-08-05T09:30:00Z            |<br>
----------------------------------------------------<br>
-
-Lambda Functions:<br>
---------------------------------------------------------------<br>
-|  FunctionName    |   Runtime    |   LastModified           |<br>
---------------------------------------------------------------<br>
-|  processEvents   |  python3.9   |  2025-08-20T12:15:00+0000|<br>
-|  resizeImages    |  nodejs18.x  |  2025-08-25T08:45:00+0000|<br>
---------------------------------------------------------------
+![Results](https://github.com/Raafiya-Gouher/aws-resource-tracker/blob/main/Result.png)
