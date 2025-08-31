@@ -42,18 +42,17 @@ aws-resource-tracker/ <br>
 
 ### ▶️ Usage
 
-Make the script executable:
-```chmod +x aws-resource-tracker.sh```
-Run the script:
-```./aws-resource-tracker.sh```
-Logs will be saved in:
-```logs/aws_resource_tracker_YYYY-MM-DD.log```
+Make the script executable:<br>
+```chmod +x aws-resource-tracker.sh```<br>
+Run the script:<br>
+```./aws-resource-tracker.sh```<br>
+Logs will be saved in:<br>
+```logs/aws_resource_tracker_YYYY-MM-DD.log```<br>
 
 ### ⏲ Automating with Cron
 
 To run the script daily at 9 AM:
 ```crontab -e```
-
 Add this line:<br>
 ```0 9 * * * /path/to/aws-resource-tracker/aws-resource-tracker.sh```
 
