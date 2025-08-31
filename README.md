@@ -52,7 +52,7 @@ Logs will be saved in:<br>
 ### ⏲ Automating with Cron
 
 To run the script daily at 9 AM:
-```crontab -e```<br
+```crontab -e```<br>
 Add this line:<br>
 ```0 9 * * * /path/to/aws-resource-tracker/aws-resource-tracker.sh```
 
