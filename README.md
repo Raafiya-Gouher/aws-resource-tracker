@@ -28,8 +28,8 @@ aws-resource-tracker/ <br>
 
 ### ⚙️ Prerequisites
 1. Install **AWS CLI**  
-   ```[Install Guide]```(https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-
+   [Install Guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+   
 2. Configure AWS credentials:
    ```aws configure```
 
