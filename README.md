@@ -62,4 +62,8 @@ The ```logs/``` directory is ignored from version control using ```.gitignore```
 This ensures only the script and documentation are pushed to GitHub, while logs remain local.
 
 ### 📌 Example Output (log file)
-![Results](https://github.com/Raafiya-Gouher/aws-resource-tracker/blob/main/Result.png)
+
+![Results](https://github.com/Raafiya-Gouher/aws-resource-tracker/blob/main/Output-resource-tracker.png)
+
+Sample Log File
+![SampleLogfile](https://github.com/Raafiya-Gouher/aws-resource-tracker/blob/main/Sample-Logfile.png)
