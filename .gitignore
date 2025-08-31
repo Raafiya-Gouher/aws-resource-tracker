@@ -1,0 +1,26 @@
+# Logs
+logs/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Python cache (in case you add helper scripts later)
+__pycache__/
+*.pyc
+
+# Node.js cache (if you add front-end tooling later)
+node_modules/
+
+# Environment files (if you store AWS keys locally)
+.env
+*.env
