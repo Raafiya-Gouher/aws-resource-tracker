@@ -2,12 +2,9 @@
 
 # ---------------------------------------------------------
 # AWS Resource Tracker Script with Log Rotation
-# Author: Your Name
-# Date: YYYY-MM-DD
-# Description: Collects information about AWS resources 
-#              (EC2, S3, IAM users, Lambda) and saves 
-#              the output to a log file.
-#              Logs are rotated – only last 7 days are kept.
+# Author: Raafiya Gouher
+# Date: 31-08-2025
+# Description: Collects information about AWS resources (EC2, S3, IAM users, Lambda) and saves the output to a log file. Logs are rotated – only last 7 days are kept.
 # ---------------------------------------------------------
 
 # 1. Define base directory as the folder where script resides
